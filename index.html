@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار اسئلة</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html">الرئيسية</a></li>
+                </ul>
+                <div id="logo">Quizzes</div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="form-group">
+                <input id="searchCategory" type="search" placeholder="البحث عن اختبار معين" onkeyup="searchItem()">
+            </div>
+            <div class="row">
+
+                <div id="itemLoad" class="item">
+                    <div class="header placeholder">
+                        <a href="#" style="width: 50px;height: 25px;background-color: #21252986;"></a>
+                        <div class="icon" style="background-color: #21252986;"></div>
+                        <h4 style="width: 100px;height: 20px;background-color: #21252986;"></h4>
+                        <small style="background-color: #21252986;width: 150px;height: 20px;display: block;"></small>
+                    </div>
+
+                    <div class="body placeholder">
+                        <ul>
+                            <li>
+
+                                <span style="width: 20px; height: 16px; background-color: #21252986; "></span>
+                            </li>
+
+                            <li>
+
+                                <span style="width: 20px;height: 16px;background-color: #21252986;"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="footer placeholder">
+                        <ul>
+                            <li style="background-color: #21252986;"></li>
+                            <li style="background-color: #21252986;"></li>
+                            <li style="background-color: #21252986;"></li>
+                            <li style="background-color: #21252986;"></li>
+                        </ul>
+                    </div> -->
+                </div>
+
+            </div>
+            <div class="errorSearch" style="display: none;">
+               ما تبحث عنه قد لا يكون موجود في سجلاتنا
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                    <li><a href="#">استخدام الكوكيز</a></li>
+                    <li><a href="#">التواصل</a></li>
+                </ul>
+                <small>جميع الحقوق محفوظة لموقع كويزات</small>
+            </nav>
+        </div>
+        <script src="assets/js/run.js"></script>
+    </footer>
+
+</body>
+
+</html>
